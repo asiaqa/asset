@@ -1,0 +1,3 @@
+killall cloudflared
+/media/AiCard_01/cloudflared tunnel --no-autoupdate run --token XXXX --protocol auto > /tmp/syslog.log 2>&1
+logger -t "【自定义脚本0】" "CF脚本完成"
